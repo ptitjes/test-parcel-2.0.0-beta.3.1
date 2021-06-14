@@ -1,0 +1,33 @@
+{
+  "name": "test-parcel-2.0.0-beta.3.1",
+  "version": "0.0.0",
+  "description": "Test Parcel 2.0.0-beta.3.1 scope hoisting.",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "parcel build src/index.html --target browser --dist-dir build --public-url ./"
+  },
+  "dependencies": {
+    "@rmwc/base": "^6.1.4",
+    "@rmwc/button": "^6.1.4",
+    "@rmwc/dialog": "^6.1.4",
+    "@rmwc/icon": "^6.1.4",
+    "@rmwc/textfield": "^6.1.4",
+    "@rmwc/theme": "^6.1.4",
+    "classnames": "^2.3.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-jss": "^10.6.0"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3",
+    "parcel": "2.0.0-beta.3.1"
+  },
+  "targets": {
+    "browser": {
+      "context": "browser",
+      "includeNodeModules": true,
+      "outputFormat": "commonjs"
+    }
+  }
+}
